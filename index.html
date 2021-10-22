@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Abid Bank</title>
+</head>
+<body>
+    <div id="abid" class="container">
+        <h1 class="text-center">Welcom To Abid Bank</h1>
+        <div class="log-in-area">
+            <h4>Login</h4>
+            <input type="email" name="" id="inputemail" class="form-control" placeholder="Enter Your Email">
+            <br>
+            <input type="password" name="" id="inputpass" class="form-control" placeholder="Password">
+            <br>
+            <button id="Enter" class="btn btn-success">Enter</button>
+        </div>
+    
+    </div>
+
+    <div id="transaction-area" class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-1">
+                <div class="deposit status">
+                    <h5>Deposit</h5>
+                    <h2>$<span id="current-deposit">00</span></h2>
+                </div>  
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-1">
+                <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                    <h2>$<span id="current-withdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-1 ">
+                <div class="blance status">
+                    <h5>Blance</h5>
+                    <h2>$<span id="current-blance">145</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="log-in-area">
+                <h4>Deposit</h4>
+                <input id="deposit-amount" type="text" class="form-control" placeholder="$ amount you want to deposit">
+                <br>
+                <button id="deposit-btn" class="btn btn-success">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="log-in-area">
+                    <h4>Withdraw</h4>
+                <input id="withdraw-amount" type="text" class="form-control" placeholder="$ amount you want to withdraw">
+                <br>
+                <button id="withdraw-btn" class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
